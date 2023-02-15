@@ -1,0 +1,918 @@
+body {
+    background-color:#cbd4d6;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*sectionNav*/
+
+#sectionNav {
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.navbar {
+    display: flex;
+    padding: 0 30px 0 30px;
+    box-shadow: 0px 5px 5px rgba(255,255,255, 0.37);
+}
+
+h1 {
+    display: flex;
+    color: white;
+    font-size: 40px;
+    font-family: 'Poiret One', cursive;
+}
+
+#nav {
+    width: 50%;
+    display: flex;
+    justify-content: end;
+}
+
+.nav-link {
+    font-family: 'Lato', sans-serif;
+    color: white;
+    font-size: 20px;
+}
+
+.nav-link:hover {
+    color: #252421;
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+/*Countdown*/
+
+#boxAll {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px 0 50px 0;
+}
+
+.boxOne {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+#about-us {
+    width: 50%;
+}
+
+#container-studio {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#studio {
+    background-color:rgba(219, 215, 214, 0.231);
+    box-shadow: 0px 5px 5px rgba(255,255,255, 0.37);
+    height: 90px;
+    border-radius: 50%;
+    padding: 15px;
+    margin-right: 10px;
+    width: 90px;
+}
+
+#block-studio {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    
+}
+
+h3 {
+    font-family: 'Poiret One', cursive;
+    font-size: 15px;
+    color:#252421;
+}
+
+#days, #hours, #minutes, #seconds {
+    font-family: 'Poiret One', cursive;
+    font-size: 20px;
+    color:#252421;
+}
+
+.color {
+    font-family: 'Poiret One', cursive;
+    border: none;
+    font-size: 40px;
+    color: #EF9F9F;
+}
+
+#btn-studio {
+    border: none;
+    background-color: transparent;
+    color: white;
+    height: 50px;
+    width: 100px;
+    margin-left: 20px;
+    font-size: 10px;
+    font-family: 'Lato', sans-serif;
+}
+
+#btn-studio:hover{
+    transform: scale(1.1);
+    color: #252421;
+    transition: 1s;
+}
+
+
+#text {
+    font-size: 20px;
+    margin: 0 20px 0 20px;
+    color: #252421;
+    font-family: 'Poiret One', cursive;
+}
+
+
+h2 {
+    display: flex;
+    justify-content: center;
+    color:#3a4d39;
+    font-family: 'Lato', sans-serif;
+    font-size: 25px;
+}
+
+/*slide*/
+#our-studio {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 30px 0 30px 0;
+}
+
+#slider {
+    display: flex;
+    flex-direction: column;
+}
+
+#container-slide {
+    display: flex;
+    justify-content: center;
+}
+
+#pictures {
+    width: 500px;
+    box-shadow: 0px 5px 5px rgba(255,255,255, 0.37);
+}
+
+#next, #back {
+    font-family: 'Poiret One', cursive;
+    border: none;
+    font-size: 20px;
+    color: white;
+    background-color:rgba(121, 156, 176, 0.461);
+    box-shadow: 0px 5px 5px rgba(255,255,255, 0.37);
+}
+
+
+
+/*form*/
+
+form {
+    display: flex;
+    margin: 10px;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Poiret One', cursive;
+}
+
+.text-input {
+    margin: 10px 0px 10px 0px;
+    padding: 10px;
+    display: flex;
+    width: 300px;
+    justify-content: center;
+    border: dotted 0.5px #252421;
+    font-family: 'Poiret One', cursive;
+    background-color:rgba(234, 235, 230, 0.08);
+    box-shadow: 0px 5px 5px rgba(255,255,255, 0.37);
+}
+
+
+.btn {
+    border: none;
+    font-size: 20px;
+    padding: 10px;
+    color: white;
+    width: 300px;
+    background-color:rgba(121, 156, 176, 0.461);
+    box-shadow: 0px 5px 5px rgba(255,255,255, 0.37);
+    font-family: 'Lato', sans-serif;
+}
+
+.btn:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+#mental {
+    background-color: #eaebe6;
+    padding: 30px 0 30px 0;
+}
+
+/*Gallery*/
+
+#container-prices {
+    display: flex;
+}
+
+.heading {
+    padding: 20px;
+}
+
+.item {
+    height: 90vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    flex: 1;
+    margin: 5px;
+}
+
+.one {
+    background-image: url(1.jpeg);
+}
+
+.two {
+    background-image: url(2.jpeg);
+}
+
+.three {
+    background-image: url(3.jpeg);
+}
+
+.four {
+    background-image: url(4.jpeg);
+}
+
+.five {
+    background-image: url(5.jpeg);
+}
+
+.six {
+    background-image: url(6.jpeg);
+}
+
+h5 {
+    position: absolute;
+    top: 15px;
+    left: 40px;
+    font-size: 15px;
+    font-family: 'Poiret One', cursive;
+    background-color:rgba(219, 215, 214, 0.913);
+    box-shadow: 0px 5px 5px rgba(255,255,255, 0.37);
+    color:#252421;
+    font-size: 0;
+}
+
+.price {
+    position: absolute;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    bottom: 20px;
+    left: 40px;
+    right: 100px;
+    background-color:rgba(219, 215, 214, 0.763);
+    box-shadow: 0px 5px 5px rgba(255,255,255, 0.37);
+    color:#252421;
+    font-size: 0;
+}
+
+.selected {
+    flex: 4;
+}
+
+.selected h5 {
+    font-size: 20px;
+    transition: all 1s ease-in;
+}
+
+.selected .price {
+    font-size: 20px;
+    transition: all 1s ease-in;
+}
+
+#mantra {
+    background-color: #eaebe6;
+    padding: 30px 0 30px 0;
+}
+
+
+/*yoga timer*/
+
+#sectionTwo {
+    background-color:rgba(121, 156, 176, 0.461);
+    box-shadow: 0px 5px 5px rgba(255,255,255, 0.37);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#yoga-steps {
+    display: flex;
+}
+
+#yoga, #music {
+    padding: 20px;
+    margin-left: 20px;
+}
+
+
+h6 {
+    color: white;
+    font-size: 25px;
+    margin: 15px;
+    font-family: 'Poiret One', cursive;
+}
+
+#elements {
+    align-self: center;
+    font-size: 20px;
+    font-family: 'Poiret One', cursive;
+    padding: 10px 20px 10px 20px;
+}
+
+#yoga a{
+    text-decoration: none;
+}
+
+#yoga a h2{
+    font-size: 25px;
+    font-family: 'Poiret One', cursive;
+    background-color:rgba(219, 215, 214, 0.231);
+    box-shadow: 0px 5px 5px rgba(255,255,255, 0.37);
+    margin: 0 25px 25px 0;
+    color: white;
+    padding: 10px 100px 10px 100px;
+    border-radius: 5px;
+    letter-spacing: 2px;
+}
+
+#yoga h2:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+
+/*test*/
+
+#sectionThree {
+    background-color: #eaebe6;
+    padding: 30px 0 30px 0;
+}
+
+.header-test, .image-container, .btn-test {
+    display: flex;
+    justify-content: center;
+}
+
+#one, #two, #three {
+    border: none;
+    font-size: 20px;
+    padding: 10px;
+    color: #252421;
+    background-color:rgba(121, 156, 176, 0.461);
+    box-shadow: 0px 5px 5px rgba(255,255,255, 0.37);
+    font-family: 'Poiret One', cursive;
+    margin: 20px;
+}
+    
+#one:hover, #two:hover, #three:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+/*social media - go back btn - websites - hr*/
+
+.adress {
+    display: flex;
+    justify-content: center;
+    margin-top: -15px;
+}
+
+.social {
+    margin: 0 10px 10px 0;
+}
+
+.social:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+
+#myBtn {
+    position: fixed;
+    width: 40px;
+    height: 40px;
+    bottom: 80px;
+    right: 20px;
+    z-index: 9;
+    display: none;
+    background-color:rgba(121, 156, 176, 0.461);
+    box-shadow: 0px 5px 5px rgba(255,255,255, 0.37);
+    border: none;
+    border-radius: 50px;
+    outline: none;
+    color: #fff;
+    font-size: 15px;
+    opacity: 0.75;
+}
+
+#myBtn:hover {
+    background: #252421;
+}
+
+hr{
+    width: 100%;
+    color: #252421;
+}
+
+#link {
+    display: flex;
+    justify-content: center;
+    font-size: 8px;
+    font-family: 'Poiret One', cursive;
+}
+
+
+
+@media all and (max-width: 2560px) {
+
+    #boxAll {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+        height: 100vh;
+    }
+
+    .boxOne {
+        width: 60%;
+        display: flex;
+        justify-content: center;
+    }
+
+    #about-us {
+        width: 60%;
+    }
+
+     /*navbar*/
+    
+    h1 {
+        font-size: 60px;
+    }
+
+    .nav-link {
+        font-size: 40px;
+        padding: 15px;
+    }
+
+/*coundoown*/
+
+#studio {
+    height: 150px;
+    padding: 20px;
+    margin: 30px;
+    width: 150px;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+#days, #hours, #minutes, #seconds {
+    font-size: 30px;
+}
+
+.color {
+    font-size: 30px;
+}
+
+#text {
+    font-size: 30px;
+}
+
+/*slide*/
+
+    #pictures, #myImage {
+        width: 700px;
+    }
+
+    #next, #back {
+        font-size: 30px;
+    }
+
+    #one, #two, #three {
+        font-size: 30px;
+    }
+
+    .text-input {
+        width: 300px;
+    }
+    
+    
+    .btn {
+        width: 300px;
+    }
+
+    /*Gallery*/
+
+    .selected h5 {
+        font-size: 30px;
+    }
+    
+    .selected .price {
+        font-size: 30px;
+    }
+
+/*timer*/
+
+#yoga, #music {
+    padding: 30px;
+    margin-left: 20px;
+}
+
+h6 {
+    font-size: 30px;
+    margin: 20px;
+}
+
+#elements {
+    font-size: 30px;
+}
+
+#yoga a h2{
+    font-size: 40px;
+    padding: 20px 200px 20px 200px;
+}
+
+/*test*/
+
+#one, #two, #three {
+    font-size: 30px;
+    margin: 20px;
+}  
+}
+
+@media all and (max-width: 1920px) {
+
+    #boxAll {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+        height: 100vh;
+    }
+
+    .boxOne {
+        width: 60%;
+        display: flex;
+        justify-content: center;
+    }
+
+    #about-us {
+        width: 60%;
+    }
+    
+    #yoga a h2{
+        font-size: 30px;
+        padding: 20px 150px 20px 150px;
+    }
+}
+
+
+@media all and (max-width: 1440px) {
+
+    #boxAll {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+        height: 100vh;
+    }
+
+    .boxOne {
+        width: 60%;
+        display: flex;
+        justify-content: center;
+    }
+
+    #about-us {
+        width: 60%;
+    }
+
+     /*navbar*/
+    
+    h1 {
+        font-size: 40px;
+    }
+
+    .nav-link {
+        font-size: 30px;
+        padding: 15;
+    }
+
+/*coundoown*/
+
+#studio {
+    height: 80px;
+    padding: 15px;
+    margin: 20px;
+    width: 80px;
+}
+
+h2 {
+    font-size: 25px;
+}
+
+h3 {
+    font-size: 15px;
+}
+
+#days, #hours, #minutes, #seconds {
+    font-size: 15px;
+}
+
+.color {
+    font-size: 20px;
+}
+
+#text {
+    font-size: 15px;
+}
+
+/*slide*/
+
+    #pictures, #myImage {
+        width: 500px;
+    }
+
+    #next, #back {
+        font-size: 10px;
+    }
+
+    #one, #two, #three {
+        font-size: 20px;
+    }
+
+    .text-input {
+        width: 230px;
+        margin: 0;
+    }
+    
+    .btn {
+        width: 230px;
+        margin: 0;
+    }
+
+    /*Gallery*/
+
+    .selected h5 {
+        font-size: 20px;
+    }
+    
+    .selected .price {
+        font-size: 20px;
+    }
+
+/*timer*/
+
+#yoga, #music {
+    padding: 20px;
+    margin-left: 10px;
+}
+
+h6 {
+    font-size: 20px;
+    margin: 10px;
+}
+
+#elements {
+    font-size: 20px;
+}
+
+#yoga a h2{
+    font-size: 25px;
+    padding: 10px 100px 10px 100px;
+}
+
+/*test*/
+
+#one, #two, #three {
+    font-size: 20px;
+    margin: 10px;
+}  
+}
+
+
+@media all and (max-width: 800px) {
+
+     /*navbar*/
+     .navbar {
+        padding: 0;
+    }
+
+    #nav {
+        width: 70%;
+        display: flex;
+    justify-content: end;
+    }
+
+    h1 {
+        font-size: 20px;
+        color: #252421;
+    }
+
+    .nav-link {
+        font-size: 13px;
+    }
+
+    /*coundoown*/
+
+#studio {
+    height: 70px;
+    margin: 10px;
+    width: 70px;
+}
+
+h3 {
+    font-size: 10px;
+}
+
+#days, #hours, #minutes, #seconds {
+    font-size: 10px;
+}
+
+    #pictures, #myImage {
+        width: 350px;
+    }
+
+    #next, #back {
+        font-size: 20px;
+    }
+
+    #one, #two, #three {
+        font-size: 15px;
+    }
+
+    #container-prices {
+        flex-direction: column;
+        height: 100vh;
+    }
+
+    #yoga-steps {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    
+}
+
+
+
+@media all and (max-width: 500px) {
+
+
+    #boxAll {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+        height: 100vh;
+    }
+
+    .boxOne {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    #about-us {
+        width: 100%;
+    }
+   
+
+    /*navbar*/
+
+    #nav {
+        width: 60%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    h1 {
+        font-size: 13px;
+        color: #252421;
+    }
+
+    .nav-link {
+        font-size: 10px;
+        padding: 4px;
+    }
+
+/*coundoown*/
+
+#studio {
+    height: 50px;
+    padding: 8px;
+    margin: 7px;
+    width: 50px;
+}
+
+h2 {
+    font-size: 15px;
+}
+
+h3 {
+    font-size: 10px;
+}
+
+#days, #hours, #minutes, #seconds {
+    font-size: 10px;
+}
+
+.color {
+    font-size: 15px;
+}
+
+#text {
+    font-size: 13px;
+}
+
+/*slide*/
+
+    #pictures, #myImage {
+        width: 200px;
+    }
+
+    #next, #back {
+        font-size: 10px;
+    }
+
+    #one, #two, #three {
+        font-size: 15px;
+    }
+
+    .text-input {
+        width: 230px;
+    }
+    
+    
+    .btn {
+        width: 230px;
+    }
+
+    /*Gallery*/
+
+    .selected h5 {
+        font-size: 13px;
+    }
+    
+    .selected .price {
+        font-size: 10px;
+    }
+
+/*timer*/
+
+#yoga, #music {
+    padding: 10px;
+    margin-left: 10px;
+}
+
+h6 {
+    font-size: 15px;
+    margin: 10px;
+}
+
+#elements {
+    font-size: 10px;
+}
+
+#yoga a h2{
+    font-size: 20px;
+    padding: 10px 70px 10px 70px;
+}
+
+/*test*/
+
+#one, #two, #three {
+    font-size: 10px;
+    margin: 6px;
+}
+}
+

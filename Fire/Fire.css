@@ -1,0 +1,62 @@
+#container {
+    display: flex;
+    justify-content: start;
+  }
+  
+  #countdown {
+    font-size: 50px;
+    margin-top: 80px;
+    border-radius: 20px;
+    padding: 10px;
+    color:#2a1f17;
+    background-color: rgba(188,163,156, 0.6);
+  }
+  
+  video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+  }
+  
+  #myButton {
+    display: none;
+  }  
+  
+  @media all and (max-width:1000px) {
+    #myButton {
+      display: block;
+      padding: 20px;
+      background-color: rgba(188,163,156, 0.6);
+      border-radius: 20px;
+  }
+  
+  body {
+     background-color: #b8a79f;
+  }
+  
+  video {
+      position: relative;
+  }
+  }
+  
+  
+  @media all and (max-width:500px) {
+    #myButton {
+        display: block;
+        padding: 10px;
+        background-color: rgba(188,163,156, 0.6);
+        border-radius: 20px;
+    }
+  
+    body {
+       background-color: #b8a79f;
+    }
+  
+    video {
+        position: relative;
+    }
+  }

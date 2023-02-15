@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Yoga Studio</title>
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+      <link rel="stylesheet" href="style.css">
+      <link rel="icon" href="data:,">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Poiret+One&display=swap" rel="stylesheet">
+   </head>
+   <body>
+<section id="sectionNav">
+         <nav class="navbar">
+            <h1>Yoga studio</h1>
+            <div id="nav">
+               <a class="nav-link" href="#sectionOne">Classes</a>
+               <a class="nav-link" href="#sectionTwo">Yoga Timer</a>
+               <a class="nav-link" href="#sectionThree">Yoga Test</a>
+            </div>
+         </nav>
+<!--Countdown-->
+         <div id="boxAll">
+            <div class="boxOne">
+               <h2>We will open soon</h2>
+               <div id="container-studio">
+                  <div id="studio">
+                     <div id="block-studio">
+                        <h4 id="days"></h4>
+                        <h3>DAYS</h3>
+                     </div>
+                  </div>
+                  <div id="studio">
+                     <div id="block-studio">
+                        <h4 id="hours"></h4>
+                        <h3>HOURS</h3>
+                     </div>
+                  </div>
+                  <div id="studio">
+                     <div id="block-studio">
+                        <h4 id="minutes"></h4>
+                        <h3>MINUTES</h3>
+                     </div>
+                  </div>
+                  <div id="studio">
+                     <div id="block-studio">
+                        <h4 id="seconds"></h4>
+                        <h3>SECONDS</h3>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div id="about-us">
+               <h2>What we do.</h2>
+               <!--Audio-->
+               <audio id="myAudio-studio" src="mantra-money.mp3" loop="loop" autoplay="allowed"></audio>
+               <button id="btn-studio"><img src="play 2.png" alt="Play button" width="34">Sound On</button>
+               <p id="text">Our Yoga studio offers meditation training courses for meditators 
+                  of all levels. Our timeless, genuine methods can get your practice going or rekindle 
+                  the spark, keep you steady, and help you explore how to apply your practice in everyday 
+                  situations and challenges.
+               </p>
+               <p id="text">Emotions make us human–they connect and alienate, elate and destroy.</p>
+               <p id="text">When it comes to emotions, meditation is a wonderfully effective technique 
+                  that works on a good many levels. When we train in mindfulness, we learn to let 
+                  go of the storyline and simply be with what we’re experiencing in the moment. 
+                  With awareness practice, we gain insights into the very nature of emotions and 
+                  their manifold expressions.
+               </p>
+            </div>
+         </div>
+      </section>
+      <section id="our-studio">
+<!--Slides next-back-->
+         <div id="slider">
+            <div class="heading">
+               <h2>Our studio:</h2>
+            </div>
+            <div id="container-slide">
+               <button id="back">Back</button>
+               <img id="pictures" src="1.webp" alt="yoga">
+               <button id="next">Next</button>
+            </div>
+         </div>
+<!--form-->
+         <form
+            action="https://formspree.io/f/mvolawqr"
+            method="POST">
+            <div class="heading">
+               <h2>Email us:</h2>
+            </div>
+            <div class="heading">
+               <label>
+               Your email:
+               <input type="email" class="text-input" name="_replyto" placeholder="Your email..." required="">
+               </label>
+            </div>
+            <div class="heading">
+               <label>
+               Your message:
+               <textarea class="text-input" name="message" placeholder="Type your message..." required=""></textarea>
+               </label>
+            </div>
+            <br>
+            <!-- your other form fields go here -->
+            <div class="heading">
+               <button class="btn" type="submit">Send</button>
+            </div>
+         </form>
+      </section>
+      
+      <section id="mental">
+         <h2>Mental Health</h2>
+         <p id="text">With its emphasis on breathing practices and medita­tion—both of which help calm and center the 
+            mind— it’s hardly surprising that yoga also brings mental benefits, such as reduced anxiety and 
+            depression. What may be more surprising is that it actually makes your brain work better.
+         </p>
+         <p id="text">When you lift weights, your muscles get stronger and bigger. When you do yoga, your brain cells 
+            develop new connections, and changes occur in brain struc­ture as well as function, resulting in 
+            improved cog­nitive skills, such as learning and memory. Yoga strengthens parts of the brain that 
+            play a key role in memory, attention, awareness, thought, and language. Think of it as weightlifting 
+            for the brain.
+         </p>
+         <p id="text">Studies using MRI scans and other brain imaging technology have shown that people who regularly did 
+            yoga had a thicker cerebral cortex (the area of the brain responsible for information processing) 
+            and hippocampus (the area of the brain involved in learn­ing and memory) compared with nonpractitioners. 
+            These areas of the brain typically shrink as you age, but the older yoga practitioners showed less 
+            shrinkage than those who did no yoga. This suggests that yoga may counteract age-related declines 
+            in memory and other cognitive skills.
+         </p>
+      </section>
+
+<!--sectionOne-->      
+<section id="sectionOne">
+<!--Gallery-->
+      <div class="heading">
+         <h2>Classes</h2>
+      </div>
+      <div id="container-prices">
+         <div class="item one selected">
+            <h5>Pregnancy Yoga - From 15$/45 minutes</h5>
+            <p class="price">For 1/2/3 Trimester</p>
+         </div>
+         <div class="item two">
+            <h5>Private Yoga - From 35$/hour</h5>
+            <p class="price">Learn in a safe, supportive, personalized environment</p>
+         </div>
+         <div class="item three">
+            <h5>Group Yoga - From 20$/hour</h5>
+            <p class="price">Group Yoga classes are a great way to share and explore 
+               technique and movement while building upon the collective energy in the room.
+            </p>
+         </div>
+         <div class="item four">
+            <h5>Group Nature Yoga - From 25$/hour</h5>
+            <p class="price">The first element of Nature Yoga is simply taking the practice outdoors.</p>
+         </div>
+         <div class="item five">
+            <h5>Virtual Yoga - From 15$/hour</h5>
+            <p class="price">Here are the best online yoga classes</p>
+         </div>
+         <div class="item six">
+            <h5>Kids Yoga - From 14$/45 minutes</h5>
+            <p class="price">Ages 6 to 12</p>
+         </div>
+      </div>
+      <div id="mantra">
+         <h2>What Is Mantra Meditation?</h2>
+         <p id="text">A mantra is a syllable, word, or phrase that is repeated during meditation. Mantras can be spoken, 
+            chanted, whispered, or repeated in the mind. Most mantra meditation techniques have two essential 
+            components: mindfulness meditation and mantra recitation or chanting. While this age-old practice 
+            is known to have Buddhist and Hindu roots, forms of “sacred word” recitation exist within a great 
+            variety of spiritual traditions, including Judeo-Christian and Shamanic. Nowadays, mantra practice 
+            is also gaining popularity as part of secular mindfulness practice.
+         </p>
+         <p id="text">People do mantra meditation for different reasons. For some, it serves as a kind of mental protection
+            against unwelcome distractions or emotions, as when battling sleeplessness or coping with fears 
+            associated with travel. For others, mantra meditation serves a deeper spiritual purpose. In certain 
+            Hindu and ancient Christian traditions, for example, mantra recitation is used to focus the mind-heart 
+            and connect with the divine, both within and without. In Buddhism, one of the benefits of mantra 
+            recitation is that it helps keep the mind focused and receptive to the blessings of the present moment. 
+            As Buddhism is a non-thesitic tradition, mantra serves to evoke positive qualities and confidence 
+            rather than an external deity.
+         </p>
+         <h2>How to do mantra meditation</h2>
+         <p id="text">1. Find the best mantras to suit your intention
+         <p>
+         <p id="text">2. Get comfortable and remember your intention</p>
+         <p id="text">3. Next, sit correctly and focus on your breathing</p>
+         <p id="text">4. Chant your mantra</p>
+         </div>
+</section>
+
+<!--Yoga Timer-->
+      <section id="sectionTwo">
+         <h6>12 minutes Yoga For Mental Health</h6>
+         <hr>
+         <div id="yoga-steps">
+            <div id="elements-par">
+               <p id="elements">Earth, Water, Fire and Air: the four elements that make up not only the natural 
+                  world but every human being, body and mind.
+               </p>
+               <p id="elements">According to yoga, these elements are at play in all of the manifestations. The 
+                  stability of the Earth, the fluidity of Water, the transformative power of Fire and the 
+                  expansiveness of Air… They are constantly dancing in all of us. We all have all of them, 
+                  but your own balance of the four elements is uniquely your own.
+               </p>
+               <p id="elements">Yet knowing your predominant element can give you a clearer understanding of 
+                  yourself and perspective when interacting with others.
+               </p>
+            </div>
+            <div id="yoga">
+               <a href="Earth/Earth.html">
+                  <h2>Earth</h2>
+               </a>
+               <a href="Water/Water.html">
+                  <h2>Water</h2>
+               </a>
+               <a href="Fire/Fire.html">
+                  <h2>Fire</h2>
+               </a>
+               <a href="Air/Air.html">
+                  <h2>Air</h2>
+               </a>
+            </div>
+         </div>
+      </section>
+
+<!--Yoga test-->
+
+      <section id="sectionThree">
+         <div class="header-test">
+            <h2>What Type of Yoga Is Best for You?</h2>
+         </div>
+         <div class="image-container">
+            <img src="https://cdn.glitch.global/424d3bfd-687b-4491-82aa-952cd2d0d4e0/two.jpeg?v=1649990065891" alt="" width="500" id="myImage">
+         </div>
+         <div class="header-test">
+            <h2 id="h2">What's your level?</h2>
+         </div>
+         <div class="btn-test">
+            <button id="one">It's my life</button>
+            <button id="two">Pretty solid</button>
+            <button id="three">Beginner</button>
+         </div>
+      </section>
+
+<!--social media - go back btn - websites - hr-->
+
+      <button id="myBtn" title="Go to top">&uarr;</button>
+
+      
+      <div class="adress">
+         <a class="social" href="https://www.facebook.com/"><img src="facebook (4).png" alt="facebook" width="32"></a>
+         <a class="social" href="https://www.linkedin.com/"><img src="linkedin.png" alt="linkedin" width="32"></a>
+         <a class="social" href="https://www.instagram.com/"><img src="instagram (2).png" alt="instagram" width="32"></a>
+      </div>
+      <p id="link">Photos: from www.freepik.com, www.pexels.com and all materials: www.blog.myfitnesspal.com, 
+         www.health.harvard.edu, www.mindworks.org, www.aumtantrayoga.com, was taken for educational proposes.
+      </p>
+      <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+      <script src="script.js"></script>
+   </body>
+</html>
